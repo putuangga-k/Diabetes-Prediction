@@ -48,7 +48,12 @@ To run this project, you'll need to have Python installed along with several lib
  2. Navigate to the project directory:
     ```bash
     cd diabetes-prediction
- 3. Open the ipynb file
+ 3. Install required libraries
+    ```bash
+    pip install -r library name 
+ 5. Start jupyter notebook
+    ```bash
+    jupyter notebook
 
  ## Results
  The results of the predictions will be displayed, showing the accuracy, precision, recall, and F1 score of both Random Forest and KNN models. A comparison will be made to determine the more effective algorithm for this specific dataset.
